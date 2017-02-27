@@ -9,15 +9,15 @@ Ubuntuを少し触ったことがあって、プログラミングの経験が�
 より詳しく学ぶための方法については[次になにをすれば良いか]()に記載があります。
 
 ## もくじ
-- [Step 0. 環境を用意する](0_install-requirements/README.md)
+- [Step 0. 環境を用意する](./0_install-requirements/)
 
   UbuntuにPythonやFlaskなどの必要なソフトウェアをインストールします。
 
-- [Step 1. Hello World](1_hello-world/README.md)
+- [Step 1. Hello World](./1_hello-world/)
 
   毎回固定の文字を表示するだけのシンプルなWebアプリケーションを作り、その動作を追い掛けてみます。
 
-- [Step 2. データを受信する](2_receive-data/README.md)
+- [Step 2. データを受信する](./2_receive-data/)
 
   クライアントから受け取ったデータを表示するWebアプリケーションを作成してみます。
   また、入力に応じて挙動を変える方法を学びます。
@@ -52,7 +52,7 @@ Ubuntuを少し触ったことがあって、プログラミングの経験が�
 
 ### Python
 用意したLinuxには[Python](https://www.python.jp/)がインストールされている必要があります。
-[UbuntuにPythonをインストールする方法](./0_install_requirements/README.md#Pythonをインストールする)はあとで解説します。
+[UbuntuにPythonをインストールする方法](./0_install_requirements/#Pythonをインストールする)はあとで解説します。
 
 Pythonのバージョンは大きく2系と3系の2つの系統があります。
 3系は色々な機能が大幅に強化され、また扱いやすくなったモダンなバージョンですが、残念ながら一部の機能について2系と互換性がありません。このため、互換性のために2系も平行してメンテナンスされている状態です。
@@ -62,10 +62,10 @@ Pythonのバージョンは大きく2系と3系の2つの系統があります�
 
 ### Flask
 [Flask](http://flask.pocoo.org/)の最新版を用意してください。
-これについても、必要であれば[インストール方法の解説](./0_install_requirements/README.md#Flaskをインストールする)を読んでください。
+これについても、必要であれば[インストール方法の解説](./0_install_requirements/#Flaskをインストールする)を読んでください。
 
 ## 最初になにをすれば良いか
 [Ubuntu](http://www.ubuntulinux.jp)を用意してください。もしもそれを使いこなす自信があれば、他のOSでも構いません。
 
-Ubuntuのインストールが終わったら、[PythonとFlaskのインストール](./0_install_requirements/README.md)に進んでください。
-もしもこれらのインストールが既に済んでいるのであれば、読み飛ばして[Hello World](./1_hello-world/README.md)に進んでも構いません。
+Ubuntuのインストールが終わったら、[PythonとFlaskのインストール](./0_install_requirements/)に進んでください。
+もしもこれらのインストールが既に済んでいるのであれば、読み飛ばして[Hello World](./1_hello-world/)に進んでも構いません。
