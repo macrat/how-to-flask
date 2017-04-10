@@ -45,7 +45,7 @@ $ python3 app.py
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 表示されている通り、CtrlとCを同時に押せばプログラムが停止します。
-けれど今はそうせずに、ブラウザを開いて`http://localhost:5000`にアクセスしてみてください。
+けれど今はそうせずに、ブラウザを開いて[http://localhost:5000](http://localhost:5000)にアクセスしてみてください。
 ブラウザは必ず、同じOS上で実行されているものを使用してください。もしも仮想マシン上でUbuntuを使用しているのなら、その仮想マシン上のブラウザを使用する必要があります。
 
 もしも全て上手くいっているのなら、ブラウザに`Hello World!`と表示されたはずです。
@@ -83,8 +83,8 @@ def hello_world():
 ```
 
 最初の一行目は、次に定義する動作（[*関数*](http://docs.python.jp/3/tutorial/controlflow.html#defining-functions)と言います）にアクセスするためのアドレスを示しています。
-今回は`'/'`なので、`http://localhost:5000/`でアクセスすることが出来ます。
-もしもこれが`'/hello'`となっていれば、`http://localhost:5000/hello`でアクセスすることが出来るようになります。
+今回は`'/'`なので、[http://localhost:5000/](http://localhost:5000/)でアクセスすることが出来ます。
+もしもこれが`'/hello'`となっていれば、[http://localhost:5000/hello](http://localhost:5000/hello)でアクセスすることが出来るようになります。
 
 真ん中の一行は、`hello_world`という名前の関数を定義するよ、ということを示しています。
 `hello_world`以外の名前を付けても構いません。日本語の名前も付けられますが、キモチワルイので個人的にはお勧めしかねます。
