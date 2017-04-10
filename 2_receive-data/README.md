@@ -46,11 +46,13 @@ HTMLについて詳しく知りたければ、[HTMLクイックリファレン�
 
 `/receive`の部分は`form`タグの`action="/receive"`という部分で、`value`という部分は`input`タグの`name="value"`という部分でそれぞれ指定したものです。
 また、`hoge`の部分はあなたが入力欄に入力したもので置き換わっているはずです。
+この`?value=hoge`の部分を*query*と言います。
 
 `input`タグは必要に応じて[色々な種類](http://www.htmq.com/html5/input.shtml)や自由な数を記述出来ます。それぞれを区別しやすいように、`name`要素には分かりやすい名前を付けるようにしましょう。
 
 ## 入力を受け取るページ
-入力を受け取るには、`flask.request.args`という物を使います。
+*query*で渡された入力を受け取るには、`flask.request.args`という物を使います。
+
 コードにすると、以下のようになります。
 ``` python
 @app.route('/receive')
